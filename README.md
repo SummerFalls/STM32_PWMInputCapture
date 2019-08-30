@@ -8,3 +8,7 @@
  ## 开发环境
  - TrueStudio 9.3.0
  - STM32CubeMX 5.2.0
+
+ ### 注意
+ - 如果您使用其它IDE，例如Keil、IAR时，源文件只需参考main.c、usart.c即可，CubeMX的工程文件 '\*.ioc' 可通过另存为新的工程后，选择您使用的IDE进行工程的生成。
+ 
