@@ -21,23 +21,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
   8 .ARM.attributes 00000030  00000000  00000000  00020068  2**0
                   CONTENTS, READONLY
-  9 .debug_info   00008fcf  00000000  00000000  00020098  2**0
+  9 .debug_info   00008fca  00000000  00000000  00020098  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_abbrev 00001e0f  00000000  00000000  00029067  2**0
+ 10 .debug_abbrev 00001e0f  00000000  00000000  00029062  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    00003114  00000000  00000000  0002ae76  2**0
+ 11 .debug_loc    00003114  00000000  00000000  0002ae71  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_aranges 000003e0  00000000  00000000  0002df90  2**3
+ 12 .debug_aranges 000003e0  00000000  00000000  0002df88  2**3
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_ranges 00000750  00000000  00000000  0002e370  2**3
+ 13 .debug_ranges 00000750  00000000  00000000  0002e368  2**3
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_line   00002ed3  00000000  00000000  0002eac0  2**0
+ 14 .debug_line   00002ecd  00000000  00000000  0002eab8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_str    0000283f  00000000  00000000  00031993  2**0
+ 15 .debug_str    0000283f  00000000  00000000  00031985  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .comment      0000007c  00000000  00000000  000341d2  2**0
+ 16 .comment      0000007c  00000000  00000000  000341c4  2**0
                   CONTENTS, READONLY
- 17 .debug_frame  00000f64  00000000  00000000  00034250  2**2
+ 17 .debug_frame  00000f64  00000000  00000000  00034240  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1292,7 +1292,7 @@ __STATIC_INLINE void LL_SYSCFG_SetEXTISource(uint32_t Port, uint32_t Line)
  80008be:	691a      	ldr	r2, [r3, #16]
  *           PWM_DutyCycle = g_PWM_IN.PulseWidth / g_PWM_IN.Period
  *
- *           ≤‚ ‘ ‰»ÎPWM 8 Hz ~ 10 KHz
+ *           ≤‚ ‘ ‰»ÎPWM 2 Hz ~ 10 KHz
  *******************************************************************************/
 void TIM1_BRK_TIM15_IRQHandler(void) {
     if ((LL_TIM_IsActiveFlag_UPDATE(TIM15) != RESET) && (LL_TIM_IsEnabledIT_UPDATE(TIM15) != RESET)) {
