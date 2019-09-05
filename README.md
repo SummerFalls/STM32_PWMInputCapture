@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSummerFalls%2FSTM32_PWMInputCapture.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FSummerFalls%2FSTM32_PWMInputCapture?ref=badge_small)
+
 # STM32_PWMInputCapture
  可直接编译后烧录到ST官方的NUCLEO_F302R8开发板上运行
  
@@ -12,3 +14,5 @@
  ### 注意
  - 如果您使用其它IDE，例如Keil、IAR时，源文件只需参考main.c、usart.c即可，CubeMX的工程文件 '\*.ioc' 可通过另存为新的工程后，选择您使用的IDE进行工程的生成。
  
+ ## License
+ [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSummerFalls%2FSTM32_PWMInputCapture.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FSummerFalls%2FSTM32_PWMInputCapture?ref=badge_large)
