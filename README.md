@@ -1,4 +1,5 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSummerFalls%2FSTM32_PWMInputCapture.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FSummerFalls%2FSTM32_PWMInputCapture?ref=badge_small)
+<a title="Hits" target="_blank" href="https://github.com/SummerFalls/STM32_PWMInputCapture"><img src="https://hits.b3log.org/SummerFalls/STM32_PWMInputCapture.svg"></a>
 
 # STM32_PWMInputCapture
  可直接编译后烧录到ST官方的NUCLEO_F302R8开发板上运行
